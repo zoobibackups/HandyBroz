@@ -1,9 +1,8 @@
 //
 import React, {useState} from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
-
-import LOGO from '../assets/svgs/logo.svg';
+import images from '../assets/images';
 import CustomButton from '../components/CustomButton';
 import CustomInput from '../components/CustomInput';
 import fonts from '../constants/fonts';
@@ -31,8 +30,12 @@ const RegisterScreen = ({navigation}) => {
           backgroundColor: colors.white,
           alignItems: 'center',
         }}>
-        <View style={styles.logoContainer}>
-          <LOGO width={wp(80)} height={moderateScale(200)} />
+        <View style={{marginVertical: moderateScale(20)}}>
+          <Image
+            source={images.logo_main}
+            resizeMode={'contain'}
+            style={{width: wp(80), height: wp(40)}}
+          />
         </View>
         <CustomInput
           label={'First Name'}

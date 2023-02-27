@@ -1,7 +1,7 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, View} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, View} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
-import LOGO from '../assets/svgs/logo.svg';
+import images from '../assets/images';
 import CustomButton from '../components/CustomButton';
 import fonts from '../constants/fonts';
 import {wp} from '../constants/scaling';
@@ -9,7 +9,13 @@ import colors from '../constants/theme';
 const GettingStartedScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
-      <LOGO width={wp(80)} height={moderateScale(300)} />
+      <View style={{marginVertical: moderateScale(20)}}>
+        <Image
+          source={images.logo_main}
+          resizeMode={'contain'}
+          style={{width: wp(80), height: wp(40)}}
+        />
+      </View>
       <View style={{position: 'absolute', bottom: moderateScale(20)}}>
         <CustomButton onPress={() => navigation.replace('LoginScreen')} />
       </View>

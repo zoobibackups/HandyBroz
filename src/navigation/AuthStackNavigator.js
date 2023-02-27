@@ -1,6 +1,6 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
-import {ActivityIndicator, Easing, StatusBar} from 'react-native';
+import {Easing} from 'react-native';
 import fonts from '../constants/fonts';
 import {moderateScale} from '../constants/scaling';
 import colors from '../constants/theme';
