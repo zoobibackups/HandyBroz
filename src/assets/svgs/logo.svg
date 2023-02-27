@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529.47 154.72">
+  <defs>
+    <style>
+    .h{
+      fill:#c2000c;
+      font-family:Montserrat-Medium;
+    }
+    .l{
+      fill:#000000;
+      font-size:53.59px;
+      font-family:Montserrat-Medium;
+      font-weight:"bold"
+    }
+    .m{
+      fill:#000000;
+      font-family:Montserrat-Medium;
+      font-size:37.14px;
+      font-weight:"bold"
+    }
+    </style>
+    </defs>
+    <g id="a"/>
+    <g id="b">
+      <g id="c">
+        <g>
+          <g>
+            <path class="h" d="M117.09,44.25L62.63,1.61c-2.82-2.21-6.8-2.13-9.53,.18L2.68,44.43c-1.7,1.43-2.68,3.54-2.68,5.77v96.98c0,4.17,3.38,7.55,7.55,7.55s7.55-3.38,7.55-7.55V53.7L58.16,17.29l46.73,36.59v48.9H57.98c-4.17,0-7.55,3.38-7.55,7.55s3.38,7.55,7.55,7.55h54.46c4.17,0,7.55-3.38,7.55-7.55V50.19c0-2.32-1.07-4.52-2.9-5.95Z"/>
+            <rect class="h" x="41.09" y="50.44" width="16.75" height="16.75"/>
+            <rect class="h" x="62.14" y="50.44" width="16.75" height="16.75"/>
+            <rect class="h" x="41.09" y="70.42" width="16.75" height="16.75"/>
+            <rect class="h" x="62.14" y="70.42" width="16.75" height="16.75"/>
+          </g>
+          <text font-family="Montserrat-Medium, Montserrat-Medium" font-weight="550" class="l" transform="translate(124.47 96.54)">
+            <tspan x="0" y="0">InventoryWise</tspan>
+          </text>
+          <text  font-family="Montserrat-Medium, Montserrat-Medium" font-weight="550" class="m" transform="translate(24.47 153.98)">
+            <tspan x="0" y="0">Inventory And Inspections</tspan>
+          </text>
+          
+        </g>
+      </g>
+    </g>
+  </svg>
